@@ -2,8 +2,8 @@
 
 ## Required
 
-- [ts-node](http://ts-node)
-- [typescript](http://typescript)
+- [ts-node](https://github.com/TypeStrong/ts-node)
+- [typescript](https://github.com/Microsoft/TypeScript)
 
 ## Using TS Debug
 

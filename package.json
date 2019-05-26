@@ -1,7 +1,7 @@
 {
   "name": "ts-debug",
-  "displayName": "TS Debug",
-  "version": "0.0.1",
+  "displayName": "TypeScript Debugger",
+  "version": "0.0.2",
   "publisher": "kakumei",
   "description": "typescript debug configuration for VS Code.",
   "author": {
@@ -16,10 +16,9 @@
     "ts"
   ],
   "engines": {
-    "vscode": "^1.30.0-insider",
+    "vscode": "^1.33.0-insider",
     "node": "^8.9.3"
   },
-  "icon": "images/mock-debug-icon.png",
   "categories": [
     "Debuggers"
   ],
