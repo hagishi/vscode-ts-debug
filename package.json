@@ -1,13 +1,14 @@
 {
   "name": "ts-debug",
   "displayName": "TypeScript Debugger",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "kakumei",
   "description": "typescript debug configuration for VS Code.",
   "author": {
     "name": "kakumei",
     "email": "fujiyama@kakumei.jp"
   },
+  "icon": "image/icon.png",
   "license": "MIT",
   "keywords": [
     "javascript",
