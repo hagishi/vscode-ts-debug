@@ -1,7 +1,7 @@
 {
   "name": "ts-debug",
   "displayName": "TypeScript Debugger",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "kakumei",
   "description": "typescript debug configuration for VS Code.",
   "author": {
