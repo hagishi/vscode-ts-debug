@@ -5,6 +5,10 @@
 - [ts-node](https://github.com/TypeStrong/ts-node)
 - [typescript](https://github.com/Microsoft/TypeScript)
 
+## About TS Debug
+
+![about](image/step.gif)
+
 ## Using TS Debug
 
 - Install the **TS Debug** extension in VS Code.
