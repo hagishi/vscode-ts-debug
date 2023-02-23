@@ -1,10 +1,11 @@
-import * as vscode from 'vscode';
+import * as vscode from "vscode";
 
 export function activate(context: vscode.ExtensionContext) {
   // register a configuration provider for 'mock' debug type
   const provider = new TsDebugConfigurationProvider();
   context.subscriptions.push(
-    vscode.debug.registerDebugConfigurationProvider('ts-node', provider)
+    vscode.debug.registerDebugConfigurationProvider("tsx", provider),
+    vscode.debug.registerDebugConfigurationProvider("ts-node", provider)
   );
 }
 
@@ -13,7 +14,8 @@ export function deactivate() {
 }
 
 class TsDebugConfigurationProvider
-  implements vscode.DebugConfigurationProvider {
+  implements vscode.DebugConfigurationProvider
+{
   provideDebugConfigurations(
     folder: vscode.WorkspaceFolder | undefined,
     token?: vscode.CancellationToken
