@@ -1,7 +1,7 @@
 {
   "name": "ts-debug",
   "displayName": "TypeScript Debugger",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "publisher": "kakumei",
   "description": "typescript debug configuration for VS Code.",
   "author": {
@@ -68,7 +68,7 @@
     "debuggers": [
       {
         "type": "tsx",
-        "label": "Tsx Debug",
+        "label": "TS Debug (tsx)",
         "runtime": "node",
         "languages": [
           "typescript",
@@ -117,7 +117,7 @@
       },
       {
         "type": "ts-node",
-        "label": "TypeScript Debug",
+        "label": "TS Debug (ts-node)",
         "runtime": "node",
         "languages": [
           "typescript",
